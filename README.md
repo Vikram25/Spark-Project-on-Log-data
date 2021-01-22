@@ -16,13 +16,14 @@ My task is get the total number for GET and POST request each hour from log data
 
 ## Installation <a name="installation"></a>
 For this project I have used [Google Colab](https://colab.research.google.com/). 
-    ### Setting up PySpark in Colab
+### Setting up PySpark in Colab
     Use below code to install required programs to setup your environment.
     ```
     !apt-get install openjdk-8-jdk-headless -qq > /dev/null
     !wget -q https://downloads.apache.org/spark/spark-2.4.7/spark-2.4.7-bin-hadoop2.7.tgz
     !tar xf spark-2.4.7-bin-hadoop2.7.tgz
-    !pip install -q findspark  ```
+    !pip install -q findspark  
+    ```
 
     Follow notebook for furthur instructions.
 
